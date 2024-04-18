@@ -551,7 +551,7 @@ def open_contact_window():
 def open_about_window():
     about_window = Toplevel(root)
     about_window.title('About us')
-    about_window.geometry('500x250+500+150')
+    about_window.geometry('1300x500+100+50')
     about_window.configure(bg='white')
 
     heading_contact = Label(about_window, text='About us', fg='#2F3C7E', bg='white', font=('Microsoft YaHei UI Light', 30, 'bold'))
